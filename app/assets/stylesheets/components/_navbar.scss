@@ -1,12 +1,27 @@
-.navbar-lewagon {
+.navbar{
+
+  width: 100%;
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    background-color: orange;
+    color: white;
+  }
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-logo{
+  width: 300px;
 }
+
+
